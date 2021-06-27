@@ -95,7 +95,13 @@ body .v-application--wrap{max-width:100%;width:100%;display:flex;align-items:str
 .wrap_coin_site .theme--light.v-data-table .v-data-table-header th.sortable.active .v-data-table-header__icon{color:#fff}
 .wrap_coin_site tr.up td.color_effect{color:#ff5252}
 .wrap_coin_site tr.down td.color_effect{color:#03a9f4}
-.wrap_coin_site h2{background:rgb(255 255 255 / 90%);padding:20px 30px;font-size:24px;letter-spacing:2px;text-shadow:0 1px 4px rgb(158 158 158 / 40%)}
+.wrap_coin_site h2{background:rgb(255 255 255 / 90%);padding:20px 30px;font-size:24px;letter-spacing:2px;text-shadow:0 1px 4px rgb(158 158 158 / 40%);text-align: left;line-height: 1.2;display: inline-block;}
+.wrap_coin_site h2 small{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: left;
+}
 .wrap_coin_site .theme--light.v-data-table{background:rgb(255 255 255 / 80%);border-radius:12px;overflow:hidden;margin:0 10px 10px;box-shadow:0 3px 1px -2px rgb(0 0 0 / 20%),0 2px 2px 0 rgb(0 0 0 / 14%),0 1px 5px 0 rgb(0 0 0 / 12%)}
 .wrap_coin_site .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th{text-align:right;font-size:14px;font-weight:700;color:#000;background:rgb(255 255 255 / 40%)}
 .wrap_coin_site .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th.idx_0,.wrap_coin_site .theme--light.v-data-table>.v-data-table__wrapper>table>thead>tr:last-child>th.idx_1{text-align:center}
