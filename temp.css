@@ -20,6 +20,7 @@ body .v-application--wrap {
     color: inherit
 }
 
+.wrap_coin_site h2,
 .wrap_coin_site h2:focus-visible,
 .wrap_coin_site h2:focus {
     outline: none!important;
