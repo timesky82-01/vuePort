@@ -355,8 +355,6 @@ body .v-application--wrap {
     padding: 2px;
 }
 
-.list_coin {}
-
 .v-lazy.fix_box {
     position: fixed;
     bottom: 0;
@@ -462,7 +460,7 @@ body .v-application--wrap {
         line-height: 1.2;
         display: inline-block;
     }
-    .wrap_coin_site h2 small {
+    .wrap_coin_site h2 .small {
         font-size: 14px;
         display: inline-block;
         margin-top: 10px;
